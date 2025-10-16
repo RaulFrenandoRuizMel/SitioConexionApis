@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+@font-face {
+    font-family: fuenteTekoMedium;
+    src: url(../fuentes/teko/Teko-Medium.ttf);
+}
+
+@font-face {
+    font-family: fuenteTekoBold;
+    src: url(../fuentes/teko/Teko-Bold.ttf);
+}
+
+main {
+    width: 100%;
+    height: auto;
+}
+
+.call_to_action_principal {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-color: antiquewhite;
+    background-image: url("/img/imagenes/JPG/puños_imperiales.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.call_to_action_principal h1 {
+    font-family: fuenteTekoBold;
+    color: white;
+}
+
+.mensaje_bienvenida {
+    width: 40%;
+    height: auto;
+    padding: 5px;
+    background-color: black;
+    border: solid 3px goldenrod;
+    color: white;
+    border-radius: 15px;
+
+}
+
+.mensaje_bienvenida p {
+    text-align: center;
+    font-family: fuenteTekoMedium;
+    font-size: 2em;
+}
+
+.formulario_log_in {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: auto;
+    padding: 15px;
+    background-color: black;
+    border: solid 3px goldenrod;
+    color: white;
+    border-radius: 15px;
+}
+
+.formulario_log_in p {
+    text-align: left;
+    font-family: fuenteTekoMedium;
+    font-size: 1.5em;
+}
+
+.textoBienvenida {
+    text-align: center;
+}
+
+.textoBienvenida a {
+    font-family: fuenteTekoMedium;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    font-family: fuenteTekoMedium;
+    font-size: 1.5em;
+}
+
+.miembro {
+    font-family: fuenteTekoMedium;
+    font-size: 1.5em;
+    text-align: center;
+
+}
+
+.enlace_registro {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    height: 75px;
+    font-family: fuenteTekoMedium;
+    font-size: 1.5em;
+    text-align: center;
+    border-left: solid 2px goldenrod;
+    border-right: solid 2px goldenrod;
+}
+
+.enlace_registro a{
+    font-family: fuenteTekoMedium;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: goldenrod;
+}
+
+input{
+    width: 80%;
+    height: 30px;
+    border-radius: 15px;
+}
