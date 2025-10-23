@@ -5,6 +5,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
 @font-face {
     font-family: fuenteTekoMedium;
     src: url(../fuentes/teko/Teko-Medium.ttf);
@@ -38,7 +39,7 @@ main {
     height: 100vh;
     width: 100%;
     background-color: antiquewhite;
-    background-image: url("/img/imagenes/JPG/puños_imperiales.jpg");
+    background-image: url("../img/imagenes/JPG/puños_imperiales.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 20px;
@@ -235,7 +236,7 @@ input{
     flex-direction: row;
     width: 100%;
     height: auto;
-    background-color: #e2d6b5;
+    background-color: #f2f2f2;
     padding: 15px;
 }
 
@@ -244,7 +245,7 @@ input{
     display: flex;
     width: 400px;
     height: auto;
-    background-color: #e5ce8f;
+    /*background-color: #e5ce8f;*/
     border-right: solid 2px black ;
     margin-right: 25px;
 }
@@ -254,14 +255,38 @@ input{
     width: 40%;
     height: 200px;
     width: 150px;
-    background-color: #ffde84;
+    /*background-color: #ffde84;*/
     margin-right: 15px;
 }
 
 .datos_del_libro
 {
     padding: 15px;
-    width: 40%;
+    width: 55%;
     height: auto;
-    background-color: #8a6605;
+    /*background-color: #8a6605;*/
+}
+
+.titulo_del_libro
+{
+    font-family: "nexa", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 22pt;
+}
+
+.autor_del_libro
+{
+    font-family: "nexa", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14pt;
+
+}
+.reseñas_del_libro
+{
+    font-family: "nexa", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 14pt;
 }
