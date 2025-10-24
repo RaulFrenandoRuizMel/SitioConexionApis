@@ -240,6 +240,12 @@ input{
     padding: 15px;
 }
 
+.libros a
+{
+    text-decoration: none;
+    color: black;
+}
+
 .libro
 {
     display: flex;
